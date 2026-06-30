@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: Aerosol-Cloud-Interactions: Predicting Cloud Condensation Nuclei from AOS Measurements
+  title: Aerosol-Cloud-Interactions - Predicting Cloud Condensation Nuclei from AOS Measurements
   description: 2026 ARM Big Open Data Summer School Project
   github: https://github.com/ARM-Synergy/total_smokeshow/
   # keywords: []
