@@ -1,0 +1,31 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Aerosol-Cloud-Interactions: Predicting Cloud Condensation Nuclei from AOS Measurements
+  description: 2026 ARM Big Open Data Summer School Project
+  github: https://github.com/ARM-Synergy/total_smokeshow/
+  # keywords: []
+  authors:
+    - name: Abhigyan Chakraborty
+      orcid: 0009-0000-6262-5282
+    - name: Ajinkya Desai
+      orcid: 0000-0001-5642-4193
+    - name: Benjamin Marosites
+      orcid: 0009-0003-3697-4229
+    - name: William Zhai
+      orcid: 0009-0003-4465-8752
+    - name: Maria Zawadowicz
+      orcid: 0000-0003-4234-0954
+    - name: Joe O'Brien
+      orcid: 0000-0003-4655-6912
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+    - title: Project Development
+      children:
+        - file: notebooks/Total_smokeshow.ipynb
+site:
+  options:
+    logo: notebooks/images/arm_logo.png
+    footer_logos:
+        ARM: notebooks/images/arm_logo.png
